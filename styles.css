@@ -1,0 +1,44 @@
+/* body{
+    position:static;
+} */
+
+canvas{
+    float: left;
+    padding: auto;
+    background-color: black;
+}
+table{
+    float: right;
+    width: 400px;
+    height: 400px;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    border-spacing: 0px;
+}
+tr{
+    padding: 0px;
+}
+td{
+    border: solid black;
+    border-width: 1px;
+    left: 0px;
+   
+}
+td > input{
+    left: 0%;
+    float: left;
+    width: 35px;
+    height: 35px;
+    border: 0px;
+    border-style: none;
+}
+button{
+    left: 20px;
+}
+#solve_button{
+    display:none;
+}
+#solve_button ::after{
+    display: none;
+}
