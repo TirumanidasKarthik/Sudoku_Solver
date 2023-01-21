@@ -131,6 +131,7 @@ function load(){
     }
     if(count < 17){
         console.log("Minimum 17 numbers are needed");
+        window.alert("Please add atleast 17 numbers.")
         return;
     }
     load_blocks();
@@ -181,6 +182,10 @@ function run(){
             return 1;
         }
     });
+    if(entropies.length == 0){
+		return;
+	}
+    
     if(entropies[0].options.length == 0){
         cells.length = 0;
         cells = snap_shots.pop();
